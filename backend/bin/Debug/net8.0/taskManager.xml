@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>taskManager</name>
+    </assembly>
+    <members>
+        <member name="M:taskManager.API.Controllers.ProyectosController.GetProyectos">
+            <summary>
+            Obtiene la lista de todos los proyectos
+            </summary>
+            <returns>Lista de proyectos</returns>
+        </member>
+        <member name="M:taskManager.API.Controllers.ProyectosController.GetProyecto(System.Int32)">
+            <summary>
+            Obtiene un proyecto por su ID
+            </summary>
+            <param name="id">ID del proyecto</param>
+            <returns>Proyecto encontrado</returns>
+        </member>
+        <member name="M:taskManager.API.Controllers.ProyectosController.CreateProyecto(taskManager.Application.DTO.ProyectoDTO)">
+            <summary>
+            Crea un nuevo proyecto
+            </summary>
+            <param name="proyecto">Datos del proyecto</param>
+            <returns>Proyecto creado</returns>
+        </member>
+        <member name="M:taskManager.API.Controllers.TareasController.GetByEstado(System.String)">
+            <summary>
+            Obtiene las tareas filtradas por estado
+            </summary>
+            <param name="estado">
+            Estado de la tarea. Valores posibles:
+            Pendiente, EnProgreso, Completada
+            </param>
+            <returns>Lista de tareas filtradas</returns>
+        </member>
+        <member name="M:taskManager.API.Controllers.TareasController.Crear(taskManager.Application.DTO.TareaDTO)">
+            <summary>
+            Crea una nueva tarea
+            </summary>
+            <param name="tarea">Datos de la tarea</param>
+            <returns>Tarea creada</returns>
+        </member>
+        <member name="M:taskManager.API.Controllers.TareasController.GetTarea(System.Int32)">
+            <summary>
+            Obtiene una tarea por su ID
+            </summary>
+            <param name="id">ID de la tarea</param>
+            <returns>Tarea encontrada</returns>
+        </member>
+        <member name="T:taskManager.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:taskManager.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:taskManager.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:taskManager.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
