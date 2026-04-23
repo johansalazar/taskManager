@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\SirGohan\\source\\repos\\johansalazar\\taskManager\\backend\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{961607E9-AA09-45EC-AD9A-229837E481C5}|taskManager.csproj|c:\\users\\sirgohan\\source\\repos\\johansalazar\\taskmanager\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961607E9-AA09-45EC-AD9A-229837E481C5}|taskManager.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961607E9-AA09-45EC-AD9A-229837E481C5}|taskManager.csproj|c:\\users\\sirgohan\\source\\repos\\johansalazar\\taskmanager\\backend\\domain\\entities\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961607E9-AA09-45EC-AD9A-229837E481C5}|taskManager.csproj|solutionrelative:domain\\entities\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 239,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 21,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,6 +103,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SirGohan\\source\\repos\\johansalazar\\taskManager\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\SirGohan\\source\\repos\\johansalazar\\taskManager\\backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAcwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T17:15:19.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Proyecto.cs",
+              "DocumentMoniker": "C:\\Users\\SirGohan\\source\\repos\\johansalazar\\taskManager\\backend\\Domain\\Entities\\Proyecto.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Proyecto.cs",
+              "ToolTip": "C:\\Users\\SirGohan\\source\\repos\\johansalazar\\taskManager\\backend\\Domain\\Entities\\Proyecto.cs",
+              "RelativeToolTip": "Domain\\Entities\\Proyecto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:29:17.315Z",
+              "EditorCaption": ""
             }
           ]
         },

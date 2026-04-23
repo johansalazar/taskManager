@@ -1,0 +1,17 @@
+# Visual Studio 2015/2017/2019/2022 cache and settings
+.vs/
+
+# Carpetas de compilación (Binarios y archivos temporales)
+[Bb]in/
+[Oo]bj/
+
+# Archivos de usuario específicos (Configuraciones personales)
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos temporales de VS
+*.suo
+*.vshost.exe
+*.vshost.exe.config
+*.vshost.exe.manifest
