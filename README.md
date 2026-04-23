@@ -48,6 +48,6 @@ Esto generará una carpeta Migrations con los archivos necesarios.
 
 Aplicar la migración a la base de datos
 
-dotnet ef database update
+  - dotnet ef database update
 
 Este comando creará la base de datos y todas las tablas definidas en el modelo.
